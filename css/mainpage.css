@@ -1,0 +1,49 @@
+@charset "UTF-8";
+#left-label{
+    /*background-image: url("../images/001.jpg");*/
+    width: 15%;
+    height: 100%;
+    float: left;
+    background-color: blue;
+}
+
+#middle-label{
+    width: 30%;
+    height: 100%;
+    float: left;
+    background-color: brown;
+}
+
+#right-label{
+    width: 55%;
+    height: 100%;
+    float: left;
+    background-color: cadetblue;
+}
+
+.user-pit img{
+    width:50px;
+    height: 50px;
+    margin-left: 15px;
+    margin-right: auto;
+}
+
+.left-title1{
+    position: absolute;
+    top: 40%;
+    margin-left: 15px;
+}
+
+.left-title2{
+    position: absolute;
+    top: 60%;
+    margin-left: 15px;
+}
+
+
+
+/*#right-label{
+    background-image: url(../images/Sunrise.png);
+    height: 100%;
+    width: 10%;
+}*/

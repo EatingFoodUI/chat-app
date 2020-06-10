@@ -1,0 +1,102 @@
+@charset "UTF-8";
+body{
+    background-image: url("../images/001.jpg");
+    /* set background tensile */
+}
+
+#login{
+    background-color: rgba(255, 255, 255, 0.95);
+    width: 420px;
+    height: 350px;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    padding: 10px;
+    margin-top: 12%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.sign-header{
+    width: 100%;
+    height: 48px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #dcdcdc;
+    text-align: center;
+}
+
+.sign-header a{
+    font-size:30px;
+}
+
+.sign-input-box{
+    margin-top: 12px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+
+.sign-input-box input{
+    width: 340px;
+    height: 32px;
+    margin-left: 18px;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    padding-left: 42px;
+}
+
+.sign-input-box input:hover{
+    border: 1px solid #ff7d0a;
+}
+
+.sign-input-box input:after{
+    border: 1px solid #ff7d0a;
+}
+
+.sign-button-box{
+    margin-top: 12px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+
+.sign-button-box button{
+    background-color: #ff7d0a;
+    color: #ffffff;
+    font-size: 16px;
+    width: 386px;
+    height: 40px;
+    margin-left: 18px;
+    border: 1px solid #ff7d0a;
+    border-radius: 4px;
+}
+
+.sign-button-box button:hover{
+    background-color: #ee7204;
+}
+
+.sign-button-box button:active{
+    background-color: #ee7204;
+}
+
+.sign-box{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.sign-box a{
+    margin: 30px;
+    color: #4a4744;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.sign-box a:hover{
+    color: #ff7d0a;
+}
+
+.sign-box a:active{
+    color: #ee7204;
+}

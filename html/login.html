@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="shortcut icon" href="../images/logo.jpg">
+    <title>登录页</title>
+</head>
+
+<body>
+    <!--登录大表格start-->
+    <div id="login">
+        <div class="login-header">
+            <img src="../images/logo.jpg">
+        </div>
+        <div class="login-input-box">
+            <span class="icon icon-user"></span>
+            <input type="text" placeholder="请输入账号">
+        </div>
+        <div class="login-input-box">
+            <span class="icon icon-password"></span>
+            <input type="password" placeholder="请输入密码">
+        </div>
+        <div class="remember-box">
+            <label>
+                <input type="checkbox">&nbsp;记住我
+            </label>
+        </div>
+        <div class="login-button-box">
+            <script type="text/javascript">
+                function login() {
+                    window.location.href = "app-chats.html";
+                }
+            </script>
+            <button onclick="login()">login</button>
+        </div>
+        <div class="logon-box">
+            <a href="forgetPassword.html">忘记密码？</a>
+            <a href="sign.html">注册</a>
+        </div>
+    </div>
+    <!--登录大表格end-->
+</body>
+
+</html>
