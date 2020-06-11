@@ -4,12 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/sign.css">
     <link rel="shortcut icon" href="../images/logo.jpg">
+    <!-- Custom CSS -->
+    <link href="../css/style.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/sign.css">
     <title>注册页</title>
 </head>
 
 <body>
+    <!--预加载动画-->
+    <div class="preloader">
+        <div class="lds-ripple">
+            <div class="lds-pos"></div>
+            <div class="lds-pos"></div>
+        </div>
+    </div>
     <!--登录大表格start-->
     <div id="login">
         <div class="sign-header">
@@ -33,6 +42,11 @@
                     window.location.href = "./login.html";
                 }
             </script>
+            <style type="text/css">
+                .sign-button-box button {
+                    width: 340px;
+                }
+            </style>
             <button onclick="login()">注册</button>
         </div>
         <div class="sign-box">
@@ -40,6 +54,13 @@
         </div>
     </div>
     <!--登录大表格end-->
+
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/jquery.ui.touch-punch-improved.js"></script>
+    <!--Custom JavaScript -->
+    <script src="../js/custom.min.js"></script>
 </body>
 
 </html>

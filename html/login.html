@@ -4,23 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/login.css">
     <link rel="shortcut icon" href="../images/logo.jpg">
+    <!-- Custom CSS -->
+    <link href="../css/style.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/login.css">
     <title>登录页</title>
 </head>
 
 <body>
+    <!--预加载动画-->
+    <div class="preloader">
+        <div class="lds-ripple">
+            <div class="lds-pos"></div>
+            <div class="lds-pos"></div>
+        </div>
+    </div>
     <!--登录大表格start-->
     <div id="login">
         <div class="login-header">
             <img src="../images/logo.jpg">
         </div>
         <div class="login-input-box">
-            <span class="icon icon-user"></span>
+            <span class="icon icon-users"></span>
             <input type="text" placeholder="请输入账号">
         </div>
         <div class="login-input-box">
-            <span class="icon icon-password"></span>
+            <span class="icon icon-passwords"></span>
             <input type="password" placeholder="请输入密码">
         </div>
         <div class="remember-box">
@@ -42,6 +51,12 @@
         </div>
     </div>
     <!--登录大表格end-->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/jquery.ui.touch-punch-improved.js"></script>
+    <!--Custom JavaScript -->
+    <script src="../js/custom.min.js"></script>
 </body>
 
 </html>

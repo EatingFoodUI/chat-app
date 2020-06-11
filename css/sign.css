@@ -1,11 +1,11 @@
 @charset "UTF-8";
-body{
+body {
     background-image: url("../images/001.jpg");
     /* set background tensile */
 }
 
-#login{
-    background-color: rgba(255, 255, 255, 0.95);
+#login {
+    background-color: rgba(8, 8, 8, 0.95);
     width: 420px;
     height: 350px;
     border: 1px solid #000000;
@@ -17,7 +17,7 @@ body{
     display: block;
 }
 
-.sign-header{
+.sign-header {
     width: 100%;
     height: 48px;
     margin-bottom: 20px;
@@ -25,11 +25,11 @@ body{
     text-align: center;
 }
 
-.sign-header a{
-    font-size:30px;
+.sign-header a {
+    font-size: 30px;
 }
 
-.sign-input-box{
+.sign-input-box {
     margin-top: 12px;
     width: 100%;
     margin-left: auto;
@@ -37,24 +37,24 @@ body{
     display: inline-block;
 }
 
-.sign-input-box input{
+.sign-input-box input {
     width: 340px;
     height: 32px;
     margin-left: 18px;
-    border: 1px solid #dcdcdc;
+    border: 1px solid #080808;
     border-radius: 4px;
     padding-left: 42px;
 }
 
-.sign-input-box input:hover{
+.sign-input-box input:hover {
     border: 1px solid #ff7d0a;
 }
 
-.sign-input-box input:after{
+.sign-input-box input:after {
     border: 1px solid #ff7d0a;
 }
 
-.sign-button-box{
+.sign-button-box {
     margin-top: 12px;
     width: 100%;
     margin-left: auto;
@@ -62,41 +62,41 @@ body{
     display: inline-block;
 }
 
-.sign-button-box button{
-    background-color: #ff7d0a;
+.sign-button-box button {
+    background-color: #252422;
     color: #ffffff;
     font-size: 16px;
     width: 386px;
     height: 40px;
     margin-left: 18px;
-    border: 1px solid #ff7d0a;
+    border: 1px solid #252422;
     border-radius: 4px;
 }
 
-.sign-button-box button:hover{
-    background-color: #ee7204;
+.sign-button-box button:hover {
+    background-color: #3f3429;
 }
 
-.sign-button-box button:active{
-    background-color: #ee7204;
+.sign-button-box button:active {
+    background-color: #665f59;
 }
 
-.sign-box{
+.sign-box {
     margin-top: 10px;
     text-align: center;
 }
 
-.sign-box a{
+.sign-box a {
     margin: 30px;
-    color: #4a4744;
+    color: #75726e;
     font-size: 13px;
     text-decoration: none;
 }
 
-.sign-box a:hover{
-    color: #ff7d0a;
+.sign-box a:hover {
+    color: #f0e9e9;
 }
 
-.sign-box a:active{
-    color: #ee7204;
+.sign-box a:active {
+    color: #4b4846;
 }
