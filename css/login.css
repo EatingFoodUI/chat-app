@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body {
-    background-image: url("../images/001.jpg");
+    background-image: url("../images/wallhaven2.png");
     /* set background tensile */
 }
 
@@ -22,6 +22,11 @@ body {
     height: 48px;
     margin-bottom: 20px;
     border-bottom: 1px solid #dcdcdc;
+    text-align: center;
+}
+
+.login-header a {
+    font-size: 30px;
 }
 
 .login-header img {
@@ -43,7 +48,7 @@ body {
 .login-input-box input {
     width: 340px;
     height: 32px;
-    margin-left: 18px;
+    margin-left: 28px;
     border: 1px solid #080808;
     border-radius: 4px;
     padding-left: 42px;
@@ -60,7 +65,8 @@ body {
 .login-input-box .icon {
     width: 24px;
     height: 24px;
-    margin: 6px 4px 6px 24px;
+    margin: 6px 4px 6px 10px;
+    margin-left: 30px;
     /*background-color: #ff7d0a;*/
     display: inline-block;
     position: absolute;
@@ -80,16 +86,16 @@ body {
 .remember-box {
     width: auto;
     height: auto;
-    margin-left: 18px;
+    margin-left: 28px;
     margin-top: 12px;
     font-size: 12px;
     color: #6a6765;
 }
 
 .login-button-box {
-    margin-top: 12px;
+    margin-top: 0px;
     width: 100%;
-    margin-left: auto;
+    margin-left: 10px;
     margin-right: auto;
     display: inline-block;
 }
@@ -100,6 +106,7 @@ body {
     font-size: 16px;
     width: 340px;
     height: 40px;
+    margin-top: 0px;
     margin-left: 18px;
     border: 1px solid #252422;
     border-radius: 4px;
